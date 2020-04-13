@@ -1,0 +1,7 @@
+cd <path>/tests
+
+$dune runtest --auto-promote
+
+cd <path>/bin
+
+$dune build distribution.exe
