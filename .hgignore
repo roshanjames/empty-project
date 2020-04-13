@@ -1,0 +1,7 @@
+syntax: glob
+downloaded-csv/*
+_build/**
+plot-csv/*
+python/.ipynb_*/*
+*.orig
+.merlin

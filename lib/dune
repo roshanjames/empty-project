@@ -1,0 +1,16 @@
+(library
+ (name distribution_lib)
+ (preprocess (pps
+              ppx_hash
+              ppx_compare
+              ppx_sexp_conv
+              ppx_sexp_message
+              ppx_let
+              ppx_here
+              ppx_fields_conv))
+ (libraries re
+            core
+            async
+            csv
+            sexp_pretty
+            core_extended))

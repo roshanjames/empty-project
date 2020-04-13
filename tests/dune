@@ -1,0 +1,15 @@
+(library
+ (name distribution_test)
+ (inline_tests)
+ (preprocess (pps
+              ppx_hash
+              ppx_compare
+              ppx_sexp_conv
+              ppx_sexp_message
+              ppx_let
+              ppx_expect
+              ppx_fields_conv))
+ (libraries core
+            async
+            distribution_lib
+            sexp_pretty))

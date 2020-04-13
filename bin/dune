@@ -1,0 +1,5 @@
+(executables
+ (names distribution)
+ (libraries distribution_lib
+            core
+            async))
